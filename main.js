@@ -49,8 +49,7 @@ const mostrarAlumnos = () => {
     console.log(`--------------------------`);
 
     for (let i = 0; i < alumnos.length; i++){
-        console.log(`Nombre: ${alumnos[i].nombre}`);
-        console.log(`Apellido: ${alumnos[i].apellido}`);
+        console.log(`Nombre: ${alumnos[i].nombre} ${alumnos[i].apellido}`);
         console.log(`Edad: ${alumnos[i].edad}`);
         console.log(`Calificación: ${alumnos[i].calificacion}`);
         console.log(`Estatus: ${alumnos[i].estatus}`);
@@ -83,8 +82,7 @@ const mostrarAprobados = () => {
     console.log(`--------------------------`);
 
     for (let i = 0; i < alumnosAprobados.length; i++){
-        console.log(`Nombre: ${alumnosAprobados[i].nombre}`);
-        console.log(`Apellido: ${alumnosAprobados[i].apellido}`);
+        console.log(`Nombre: ${alumnosAprobados[i].nombre} ${alumnosAprobados[i].apellido}`);
         console.log(`Edad: ${alumnosAprobados[i].edad}`);
         console.log(`Calificación: ${alumnosAprobados[i].calificacion}`);
         console.log(`--------------------------`);
@@ -104,8 +102,7 @@ const mostrarDesaprobados = () => {
     console.log(`--------------------------`);
 
     for (let i = 0; i < alumnosDesaprobados.length; i++){
-        console.log(`Nombre: ${alumnosDesaprobados[i].nombre}`);
-        console.log(`Apellido: ${alumnosDesaprobados[i].apellido}`);
+        console.log(`Nombre: ${alumnosDesaprobados[i].nombre} ${alumnosDesaprobados[i].apellido}`);
         console.log(`Edad: ${alumnosDesaprobados[i].edad}`);
         console.log(`Calificación: ${alumnosDesaprobados[i].calificacion}`);
         console.log(`--------------------------`);
